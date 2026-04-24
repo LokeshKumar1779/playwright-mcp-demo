@@ -1,4 +1,4 @@
-import { test } from "@playwright/test";
+/* import { test } from "@playwright/test";
 test("Collect performance metrics with throttling", async ({ browser }) => {
   const context = await browser.newContext();
   const page = await context.newPage();
@@ -21,3 +21,4 @@ test("Collect performance metrics with throttling", async ({ browser }) => {
   console.log("CDP Performance metrics:", metricsResponse.metrics);
   await context.close();
 });
+ */

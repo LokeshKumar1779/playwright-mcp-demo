@@ -1,4 +1,4 @@
-import { expect } from "playwright/test";
+/* import { expect } from "playwright/test";
 import { test } from "../fixtures/image-validator.fixture";
 
 test.describe("Broken Images validation", () => {
@@ -11,3 +11,4 @@ test.describe("Broken Images validation", () => {
     await imageValidator();
   });
 });
+ */

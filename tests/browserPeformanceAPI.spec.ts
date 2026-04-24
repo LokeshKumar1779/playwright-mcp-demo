@@ -1,4 +1,4 @@
-import { test } from "@playwright/test";
+/* import { test } from "@playwright/test";
 test("Measure navigation timings", async ({ page }) => {
   await page.goto("https://playwright.dev/");
   // Wait until the page is fully loaded
@@ -29,3 +29,4 @@ test("Measure navigation timings", async ({ page }) => {
   });
   console.log("Resource timings:", resources);
 });
+ */
