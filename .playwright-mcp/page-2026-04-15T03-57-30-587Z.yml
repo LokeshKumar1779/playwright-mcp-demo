@@ -1,0 +1,545 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: amazon.in amazon.in
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Google apps" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Sign in" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Damazon.in%26sca_esv%3D298796d921a32d3f%26source%3Dhp%26ei%3DkQzfaZGnLvjJ5_EP8Ze9-QU%26iflsig%3DAFdpzrgAAAAAad8aoSCCfp0Vh7suDWOtmgh3-PwCzhOT%26ved%3D0ahUKEwjRs6ys--6TAxX45DkIHfFLL18Q4dUDCBo%26uact%3D5%26oq%3Damazon.in%26gs_lp%3DEgdnd3Mtd2l6IglhbWF6b24uaW5IB1AAWABwAHgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB%26sclient%3Dgws-wiz&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "AI Mode" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze70UoGyE3eK9xvjeO54So6LPYZAQ3cBmMpOv98rO2UkZmD3RVS9kpDpZKDbBqOePwQI7sSS-v4nJWVAplR87Kl4Vlp33e5ztiTDf3Av0nS_56w4-eCNcYY4iuWeIq5_2b5QE4aSbX_MuKDNHxtO6KvO_YvkyQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ2J8OegQIGhAI
+              - generic [ref=e83]: AI Mode
+          - listitem [ref=e84]:
+            - link "All" [disabled] [ref=e85]:
+              - generic [ref=e87]: All
+          - listitem [ref=e88]:
+            - link "Shopping" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=298796d921a32d3f&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze70UoGyE3eK9xvjeO54So6LPYZAQ3cBmMpOv98rO2UkZmD3RVS9kpDpZKDbBqOePwQI7sSS-v4nJWVAplR87Kl4Vlp33e5ztiTDf3Av0nS_56w4-eCNcYY4iuWeIq5_2b5QE4aSbX_MuKDNHxtO6KvO_YvkyQ&q=amazon.in&ved=1t:220175&ictx=111
+              - generic [ref=e91]: Shopping
+          - listitem [ref=e92]:
+            - link "News" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=298796d921a32d3f&q=amazon.in&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze70UoGyE3eK9xvjeO54So6LPYZAQ3cBmMpOv98rO2UkZmD3RVS9kpDpZKDbBqOePwQI7sSS-v4nJWVAplR87Kl4Vlp33e5ztiTDf3Av0nS_56w4-eCNcYY4iuWeIq5_2b5QE4aSbX_MuKDNHxtO6KvO_YvkyQ&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ0pQJegQIHxAB
+              - generic [ref=e95]: News
+          - listitem [ref=e96]:
+            - link "Short videos" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=298796d921a32d3f&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze70UoGyE3eK9xvjeO54So6LPYZAQ3cBmMpOv98rO2UkZmD3RVS9kpDpZKDbBqOePwQI7sSS-v4nJWVAplR87Kl4Vlp33e5ztiTDf3Av0nS_56w4-eCNcYY4iuWeIq5_2b5QE4aSbX_MuKDNHxtO6KvO_YvkyQ&q=amazon.in&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQs6gLegQIHhAB
+              - generic [ref=e99]: Short videos
+          - listitem [ref=e100]:
+            - link "Forums" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=298796d921a32d3f&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze70UoGyE3eK9xvjeO54So6LPYZAQ3cBmMpOv98rO2UkZmD3RVS9kpDpZKDbBqOePwQI7sSS-v4nJWVAplR87Kl4Vlp33e5ztiTDf3Av0nS_56w4-eCNcYY4iuWeIq5_2b5QE4aSbX_MuKDNHxtO6KvO_YvkyQ&q=amazon.in&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQs6gLegQIHRAB
+              - generic [ref=e103]: Forums
+          - listitem [ref=e104]:
+            - link "Images" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=298796d921a32d3f&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mBcFY_b7_fFBjPEsWR5sze70UoGyE3eK9xvjeO54So6LPYZAQ3cBmMpOv98rO2UkZmD3RVS9kpDpZKDbBqOePwQI7sSS-v4nJWVAplR87Kl4Vlp33e5ztiTDf3Av0nS_56w4-eCNcYY4iuWeIq5_2b5QE4aSbX_MuKDNHxtO6KvO_YvkyQ&q=amazon.in&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQtKgLegQIIBAB
+              - generic [ref=e107]: Images
+          - listitem [ref=e108]:
+            - button "More filters" [ref=e109] [cursor=pointer]:
+              - generic "More filters" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: More
+                  - img [ref=e114]
+        - button "Tools" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Tools
+            - img [ref=e122]
+    - heading "Search Results" [level=1] [ref=e125]
+    - main [ref=e131]:
+      - region "Ads" [ref=e134]:
+        - generic [ref=e135]:
+          - heading "Sponsored result" [level=2] [ref=e141]
+          - generic [ref=e142]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - link "Shop online at Amazon India - Great deals on Amazon Amazon.in https://www.amazon.in › home" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.amazon.in/
+                  - heading "Shop online at Amazon India - Great deals on Amazon" [level=3] [ref=e157]
+                  - generic [ref=e163]:
+                    - generic [ref=e165]: Amazon.in
+                    - generic [ref=e166]: https://www.amazon.in › home
+                - button "Why this ad?" [ref=e169] [cursor=pointer]:
+                  - img [ref=e171]
+              - generic [ref=e175]: Amazon offers an array of unique products from hundreds of brands. Explore deals on top categories like Electronics, Fashion & more on Amazon today.
+              - generic [ref=e177]:
+                - img "Rated4.2out of5" [ref=e179]
+                - generic [ref=e181]:
+                  - link "Rating" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.google.com/shopping/ratings/account/metrics?q=amazon.in&c=IN&v=19
+                  - text: "for amazon.in: 4.2 - 1,723 reviews"
+                - text: "- Email reply time: 5 hours"
+              - generic [ref=e183]:
+                - link "Easily Track Your Order Choose from a wide range of top rated products at best prices on Amazon." [ref=e186] [cursor=pointer]:
+                  - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjIsdS3--6TAxV5mWYCHWNfAp0YACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMIyLHUt_vukwMVeZlmAh1jXwKdEAAYASABEgKiD_D_BwE&cid=CAAS0wHkaGnn1KnUf9nteR76tbLXbAjsYZTQiu-wOmMSyvo9BP1OE14IX034W9tz-6SNyQK2s_82-4cMq5S8pM5tysC158PNV2QsZMszM51kZeAPSmdMrzixS4I97W6ViBAfszHzxkgG0V33ySwmUI6vMOOskNdWyxFHWgkJ3o8jMl6JzkYImAGa5A8SLAhNo_C-J04eCxO8DwkRPdgqCmAy3gZWfLitsIhS7OIs9Bxc3pHX7XlwqUDJx3IVGB-UKeLBd2VAJn_Cr5jNkq3hqDaAq18AcwOe&cce=2&category=acrcp_v1_32&sig=AOD64_3biqKEmouifS5kBVdvX3vJU5KJrA&nis=4&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQqyQoAXoECAsQFA&adurl=https://www.amazon.in/%3F%26tag%3Dgooghydrabk1-21%26ref%3Dpd_sl_5km84u9k2k_e%26adgrpid%3D155259813113%26hvpone%3D%26hvptwo%3D%26hvadid%3D674842289479%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D6792826317913729990%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9300073%26hvtargid%3Dkwd-304880464215%26hydadcr%3D14450_2316420%26gad_source%3D1
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: Easily Track Your Order
+                    - img [ref=e190]
+                    - generic [ref=e193]: Choose from a wide range of top rated products at best prices on Amazon.
+                - link "Home, Kitchen & More" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjIsdS3--6TAxV5mWYCHWNfAp0YACICCAEQAhoCc20&co=1&ase=2&gclid=EAIaIQobChMIyLHUt_vukwMVeZlmAh1jXwKdEAAYASACEgJPN_D_BwE&cid=CAAS0wHkaGnn1KnUf9nteR76tbLXbAjsYZTQiu-wOmMSyvo9BP1OE14IX034W9tz-6SNyQK2s_82-4cMq5S8pM5tysC158PNV2QsZMszM51kZeAPSmdMrzixS4I97W6ViBAfszHzxkgG0V33ySwmUI6vMOOskNdWyxFHWgkJ3o8jMl6JzkYImAGa5A8SLAhNo_C-J04eCxO8DwkRPdgqCmAy3gZWfLitsIhS7OIs9Bxc3pHX7XlwqUDJx3IVGB-UKeLBd2VAJn_Cr5jNkq3hqDaAq18AcwOe&cce=2&category=acrcp_v1_32&sig=AOD64_02rhNFOjS-ABDGMZxbZ4zx7FRiyw&nis=4&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQqyQoA3oECAsQFw&adurl=https://www.amazon.in/%3F%26tag%3Dgooghydrabk1-21%26ref%3Dpd_sl_5km84u9k2k_e%26adgrpid%3D155259813113%26hvpone%3D%26hvptwo%3D%26hvadid%3D674842289479%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D6792826317913729990%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9300073%26hvtargid%3Dkwd-304880464215%26hydadcr%3D14450_2316420%26gad_source%3D1
+                  - img [ref=e198]
+                  - generic [ref=e200]: Home, Kitchen & More
+            - button "Hide sponsored result" [ref=e202] [cursor=pointer]:
+              - separator [ref=e203]
+              - generic [ref=e204]:
+                - generic [ref=e205]: Hide sponsored result
+                - img [ref=e207]
+      - generic [ref=e212]:
+        - generic [ref=e215]:
+          - heading "Web result with site links" [level=2] [ref=e216]
+          - generic [ref=e217]:
+            - generic [ref=e221]:
+              - generic [ref=e223]:
+                - link "Amazon.in Amazon.in https://www.amazon.in" [ref=e225] [cursor=pointer]:
+                  - /url: https://www.amazon.in/
+                  - heading "Amazon.in" [level=3] [ref=e226]
+                  - generic [ref=e231]:
+                    - generic [ref=e233]: Amazon.in
+                    - generic [ref=e235]: https://www.amazon.in
+                - button "About this result" [ref=e236] [cursor=pointer]:
+                  - img [ref=e239]
+              - generic [ref=e243]:
+                - emphasis [ref=e244]: Amazon
+                - text: .
+                - emphasis [ref=e245]: in
+                - text: ": Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards. Free Shipping & Cash on Delivery ..."
+            - group "Personalised recommendations based on your history" [ref=e246]:
+              - rowgroup [ref=e247]:
+                - 'row "Buy Home & Kitchen products ... Home & Kitchen store: Shop for Home products online at best ..." [ref=e248]':
+                  - 'cell "Buy Home & Kitchen products ... Home & Kitchen store: Shop for Home products online at best ..." [ref=e249]':
+                    - generic [ref=e254]:
+                      - heading "Buy Home & Kitchen products ..." [level=3] [ref=e255]:
+                        - link "Buy Home & Kitchen products ..." [ref=e256] [cursor=pointer]:
+                          - /url: https://www.amazon.in/Home-Kitchen/b?ie=UTF8&node=976442031
+                          - text: Buy Home & Kitchen products ...
+                      - generic [ref=e259]: "Home & Kitchen store: Shop for Home products online at best ..."
+                - row "Women’s Clothing Shop women's clothing at Amazon.in. Explore trendy sarees ..." [ref=e260]:
+                  - cell "Women’s Clothing Shop women's clothing at Amazon.in. Explore trendy sarees ..." [ref=e261]:
+                    - generic [ref=e266]:
+                      - heading "Women’s Clothing" [level=3] [ref=e267]:
+                        - link "Women’s Clothing" [ref=e268] [cursor=pointer]:
+                          - /url: https://www.amazon.in/b?ie=UTF8&node=7459780031
+                          - text: Women’s Clothing
+                      - generic [ref=e271]: Shop women's clothing at Amazon.in. Explore trendy sarees ...
+                - row "Shop by Category Shop by Category. Womens fashion · Mens fashion · Kids ..." [ref=e272]:
+                  - cell "Shop by Category Shop by Category. Womens fashion · Mens fashion · Kids ..." [ref=e273]:
+                    - generic [ref=e278]:
+                      - heading "Shop by Category" [level=3] [ref=e279]:
+                        - link "Shop by Category" [ref=e280] [cursor=pointer]:
+                          - /url: https://www.amazon.in/b?ie=UTF8&node=26221819031
+                          - text: Shop by Category
+                      - generic [ref=e283]: Shop by Category. Womens fashion · Mens fashion · Kids ...
+                - row "Your Amazon.in Indian Polity Courseware (English), 8e by M Laxmikanth for UPSC ..." [ref=e284]:
+                  - cell "Your Amazon.in Indian Polity Courseware (English), 8e by M Laxmikanth for UPSC ..." [ref=e285]:
+                    - generic [ref=e290]:
+                      - heading "Your Amazon.in" [level=3] [ref=e291]:
+                        - link "Your Amazon.in" [ref=e292] [cursor=pointer]:
+                          - /url: https://www.amazon.in/gp/aw/recs/ys?ref_=navm_ftr_ys
+                          - text: Your Amazon.in
+                      - generic [ref=e295]: Indian Polity Courseware (English), 8e by M Laxmikanth for UPSC ...
+                - row "Amazon Prime You need to visit https://www.amazon.in/prime to upgrade ..." [ref=e296]:
+                  - cell "Amazon Prime You need to visit https://www.amazon.in/prime to upgrade ..." [ref=e297]:
+                    - generic [ref=e302]:
+                      - heading "Amazon Prime" [level=3] [ref=e303]:
+                        - link "Amazon Prime" [ref=e304] [cursor=pointer]:
+                          - /url: https://www.amazon.in/amazonprime
+                          - text: Amazon Prime
+                      - generic [ref=e307]: You need to visit https://www.amazon.in/prime to upgrade ...
+                - row "More results from amazon.in »" [ref=e309]:
+                  - cell "More results from amazon.in »" [ref=e310]:
+                    - link "More results from amazon.in »" [ref=e312] [cursor=pointer]:
+                      - /url: /search?q=amazon.in+site:amazon.in&sca_esv=298796d921a32d3f&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQrAN6BAgMEAE
+        - generic [ref=e313]:
+          - generic [ref=e317]:
+            - generic [ref=e320]:
+              - link "India @ Amazon.com Amazon.com https://www.amazon.com › India" [ref=e322] [cursor=pointer]:
+                - /url: https://www.amazon.com/India/b?ie=UTF8&node=13153885011
+                - heading "India @ Amazon.com" [level=3] [ref=e323]
+                - generic [ref=e328]:
+                  - generic [ref=e330]: Amazon.com
+                  - generic [ref=e332]: https://www.amazon.com › India
+              - button "About this result" [ref=e333] [cursor=pointer]:
+                - img [ref=e336]
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - emphasis [ref=e341]: Arts, Crafts & Sewing
+                - text: · Baby Products · Beauty & Personal Care · Books · CDs & Vinyl · Clothing, Shoes & Jewelry · Electronics · Everything Else.
+              - link "Read more" [ref=e342] [cursor=pointer]:
+                - /url: https://www.amazon.com/India/b?ie=UTF8&node=13153885011#:~:text=Arts%2C%20Crafts%20%26%20Sewing,Everything%20Else
+          - generic [ref=e350]:
+            - generic [ref=e359]:
+              - generic [ref=e361]:
+                - heading "Popular products" [level=2] [ref=e362]
+                - button "About this result" [ref=e363] [cursor=pointer]:
+                  - img [ref=e366]
+              - generic [ref=e371]:
+                - list [ref=e375]:
+                  - listitem [ref=e376]:
+                    - 'button "NCERT Science and Mathematics Exemplar Set Class 10 NCERT 2025-26 Edition. Current price: ₹330. Amazon.in. Free delivery." [ref=e380]':
+                      - generic [ref=e390] [cursor=pointer]:
+                        - img [ref=e395]
+                        - generic [ref=e396]: NCERT Science and Mathematics Exemplar Set Class 10 NCERT 2025-26 Edition
+                        - 'group "Current price: ₹330." [ref=e397]':
+                          - generic [ref=e400]: ₹330
+                        - generic [ref=e402]:
+                          - img "Amazon.in" [ref=e408]
+                          - generic [ref=e409]: Amazon.in
+                        - generic [ref=e411]: Free delivery
+                  - listitem [ref=e412]:
+                    - 'button "The Derma Co 1% Hyaluronic Sunscreen Aqua Gel With SPF 50. Current price: ₹836. Amazon.in & more. Free delivery. Rated 4.5 out of 5. 3.6K reviews." [ref=e416]':
+                      - generic [ref=e426] [cursor=pointer]:
+                        - img [ref=e431]
+                        - generic [ref=e432]: The Derma Co 1% Hyaluronic Sunscreen Aqua Gel With SPF 50
+                        - 'group "Current price: ₹836." [ref=e433]':
+                          - generic [ref=e436]: ₹836
+                        - generic [ref=e437]:
+                          - generic [ref=e438]:
+                            - img "Amazon.in" [ref=e444]
+                            - generic [ref=e445]: Amazon.in
+                          - generic [ref=e446]: "& more"
+                        - generic [ref=e448]: Free delivery
+                        - img "Rated 4.5 out of 5. 3.6K reviews." [ref=e449]:
+                          - img "Rated 4.5 out of 5, 3.6K user reviews" [ref=e450]:
+                            - img [ref=e451]
+                            - text: (3.6K)
+                  - listitem [ref=e454]:
+                    - 'button "Amayra Women''s Printed Straight Kurta Set. Current price: ₹929. Amazon.in. Free delivery." [ref=e458]':
+                      - generic [ref=e468] [cursor=pointer]:
+                        - img [ref=e473]
+                        - generic [ref=e474]: Amayra Women's Printed Straight Kurta Set
+                        - 'group "Current price: ₹929." [ref=e475]':
+                          - generic [ref=e478]: ₹929
+                        - generic [ref=e479]:
+                          - generic [ref=e480]:
+                            - img "Amazon.in" [ref=e486]
+                            - generic [ref=e487]: Amazon.in
+                          - generic [ref=e488]: "& more"
+                        - generic [ref=e490]: Free delivery
+                  - listitem [ref=e491]:
+                    - 'button "MEERA FAB Women''s Printed Anarkali Kurta Palazzo & Dupatta Set. Current price: ₹994. Amazon.in. Free delivery." [ref=e495]':
+                      - generic [ref=e505] [cursor=pointer]:
+                        - img [ref=e510]
+                        - generic [ref=e511]: MEERA FAB Women's Printed Anarkali Kurta Palazzo & Dupatta Set
+                        - 'group "Current price: ₹994." [ref=e512]':
+                          - generic [ref=e515]: ₹994
+                        - generic [ref=e517]:
+                          - img "Amazon.in" [ref=e523]
+                          - generic [ref=e524]: Amazon.in
+                        - generic [ref=e526]: Free delivery
+                  - listitem [ref=e527]:
+                    - 'button "LG UA82 Series 4K Ultra HD Smart TV. Current price: ₹37,990. amazon.in & more. Rated 4.6 out of 5. 66 reviews." [ref=e531]':
+                      - generic [ref=e541] [cursor=pointer]:
+                        - img [ref=e546]
+                        - generic [ref=e547]: LG UA82 Series 4K Ultra HD Smart TV
+                        - 'group "Current price: ₹37,990." [ref=e548]':
+                          - generic [ref=e551]: ₹37,990
+                        - generic [ref=e552]:
+                          - generic [ref=e553]:
+                            - img "amazon.in" [ref=e559]
+                            - generic [ref=e560]: amazon.in
+                          - generic [ref=e561]: "& more"
+                        - img "Rated 4.6 out of 5. 66 reviews." [ref=e562]:
+                          - img "Rated 4.6 out of 5, 66 user reviews" [ref=e563]:
+                            - img [ref=e564]
+                            - text: (66)
+                  - listitem [ref=e567]
+                  - listitem [ref=e568]
+                  - listitem [ref=e569]
+                  - listitem [ref=e570]
+                  - listitem [ref=e571]
+                - button [ref=e573] [cursor=pointer]:
+                  - img [ref=e576]
+            - generic [ref=e589]:
+              - heading "Under ₹350 ." [level=3] [ref=e590]:
+                - button "Under ₹350 ." [expanded] [ref=e591] [cursor=pointer]:
+                  - generic [ref=e596]:
+                    - generic [ref=e599]: Under ₹350
+                    - generic: .
+                  - img [ref=e602]
+              - generic [ref=e609]:
+                - generic [ref=e612]:
+                  - list "Under ₹350" [ref=e613]:
+                    - listitem [ref=e614]:
+                      - 'button "NCERT Science and Mathematics Exemplar Set Class 10 NCERT 2025-26 Edition. Current price: ₹330. Amazon.in. Free delivery." [ref=e618]':
+                        - generic [ref=e628] [cursor=pointer]:
+                          - img [ref=e633]
+                          - generic [ref=e634]: NCERT Science and Mathematics Exemplar Set Class 10 NCERT 2025-26 Edition
+                          - 'group "Current price: ₹330." [ref=e635]':
+                            - generic [ref=e638]: ₹330
+                          - generic [ref=e640]:
+                            - img "Amazon.in" [ref=e646]
+                            - generic [ref=e647]: Amazon.in
+                          - generic [ref=e649]: Free delivery
+                    - listitem [ref=e650]:
+                      - 'button "Amazon Brand Women''s Symbol Stretch Slip On Bra. Current price: ₹329. Amazon.in. Free delivery." [ref=e654]':
+                        - generic [ref=e664] [cursor=pointer]:
+                          - img [ref=e669]
+                          - generic [ref=e670]: Amazon Brand Women's Symbol Stretch Slip On Bra
+                          - 'group "Current price: ₹329." [ref=e671]':
+                            - generic [ref=e674]: ₹329
+                          - generic [ref=e676]:
+                            - img "Amazon.in" [ref=e682]
+                            - generic [ref=e683]: Amazon.in
+                          - generic [ref=e685]: Free delivery
+                    - listitem [ref=e686]:
+                      - 'button "NCERT Text Books Ciass 10 Maths. Current price: ₹125. Amazon.in. Free delivery." [ref=e690]':
+                        - generic [ref=e700] [cursor=pointer]:
+                          - img [ref=e705]
+                          - generic [ref=e706]: NCERT Text Books Ciass 10 Maths
+                          - 'group "Current price: ₹125." [ref=e707]':
+                            - generic [ref=e710]: ₹125
+                          - generic [ref=e712]:
+                            - img "Amazon.in" [ref=e718]
+                            - generic [ref=e719]: Amazon.in
+                          - generic [ref=e721]: Free delivery
+                    - listitem [ref=e722]:
+                      - 'button "Amazon Brand Men''s Symbol Polo Tshirt. Current price: ₹279. Amazon.in & more. Free delivery." [ref=e726]':
+                        - generic [ref=e736] [cursor=pointer]:
+                          - img [ref=e741]
+                          - generic [ref=e742]: Amazon Brand Men's Symbol Polo Tshirt
+                          - 'group "Current price: ₹279." [ref=e743]':
+                            - generic [ref=e746]: ₹279
+                          - generic [ref=e747]:
+                            - generic [ref=e748]:
+                              - img "Amazon.in" [ref=e754]
+                              - generic [ref=e755]: Amazon.in
+                            - generic [ref=e756]: "& more"
+                          - generic [ref=e758]: Free delivery
+                    - listitem [ref=e759]:
+                      - 'button "Amazon Brand Men''s Symbol Polo T Shirt. Current price: ₹279. Amazon.in & more. Free delivery." [ref=e763]':
+                        - generic [ref=e773] [cursor=pointer]:
+                          - img [ref=e778]
+                          - generic [ref=e779]: Amazon Brand Men's Symbol Polo T Shirt
+                          - 'group "Current price: ₹279." [ref=e780]':
+                            - generic [ref=e783]: ₹279
+                          - generic [ref=e784]:
+                            - generic [ref=e785]:
+                              - img "Amazon.in" [ref=e791]
+                              - generic [ref=e792]: Amazon.in
+                            - generic [ref=e793]: "& more"
+                          - generic [ref=e795]: Free delivery
+                  - link "See more" [ref=e797] [cursor=pointer]:
+                    - /url: /search?sca_esv=298796d921a32d3f&q=amazon+in+under+%E2%82%B9350&shoprs=CAESDRILEQAAAICT3LRBGAEYBSoJYW1hem9uIGluYAOAAQE&sa=X&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQkOQKKAF6BAg2EAs
+                    - generic [ref=e799]:
+                      - img [ref=e802]
+                      - generic [ref=e804]: See more
+                - button [ref=e805] [cursor=pointer]:
+                  - img [ref=e808]
+            - heading "₹350–₹700 ." [level=3] [ref=e822]:
+              - button "₹350–₹700 ." [ref=e823] [cursor=pointer]:
+                - generic [ref=e829]:
+                  - generic [ref=e832]: ₹350–₹700
+                  - generic: .
+                - img [ref=e835]
+            - heading "₹700–₹1,500 ." [level=3] [ref=e849]:
+              - button "₹700–₹1,500 ." [ref=e850] [cursor=pointer]:
+                - generic [ref=e856]:
+                  - generic [ref=e859]: ₹700–₹1,500
+                  - generic: .
+                - img [ref=e862]
+            - heading "Over ₹1,500 ." [level=3] [ref=e876]:
+              - button "Over ₹1,500 ." [ref=e877] [cursor=pointer]:
+                - generic [ref=e883]:
+                  - generic [ref=e886]: Over ₹1,500
+                  - generic: .
+                - img [ref=e889]
+          - generic [ref=e895]:
+            - generic [ref=e898]:
+              - link "Amazon India (@AmazonIN) Facebook · Amazon India 1Cr+ followers" [ref=e900] [cursor=pointer]:
+                - /url: https://www.facebook.com/AmazonIN/
+                - heading "Amazon India (@AmazonIN)" [level=3] [ref=e901]
+                - generic [ref=e906]:
+                  - generic [ref=e908]: Facebook · Amazon India
+                  - generic [ref=e910]: 1Cr+ followers
+              - button "About this result" [ref=e911] [cursor=pointer]:
+                - img [ref=e914]
+            - generic [ref=e917]:
+              - generic [ref=e918]:
+                - emphasis [ref=e919]: Amazon's extraordinary journey for the past decade
+                - text: ", making us truly India's beloved store. Your dedication, support, and pride have written our story."
+              - link "Read more" [ref=e920] [cursor=pointer]:
+                - /url: https://www.facebook.com/AmazonIN/#:~:text=Amazon's%20extraordinary%20journey%20for%20the,you%20for%20making%20us%20%23IndiaKiApniDukaan.
+          - generic [ref=e924]:
+            - generic [ref=e927]:
+              - link "About Amazon India About Amazon India https://www.aboutamazon.in" [ref=e929] [cursor=pointer]:
+                - /url: https://www.aboutamazon.in/
+                - heading "About Amazon India" [level=3] [ref=e930]
+                - generic [ref=e935]:
+                  - generic [ref=e937]: About Amazon India
+                  - generic [ref=e939]: https://www.aboutamazon.in
+              - button "About this result" [ref=e940] [cursor=pointer]:
+                - img [ref=e943]
+            - generic [ref=e946]:
+              - generic [ref=e947]:
+                - emphasis [ref=e948]: Amazon India
+                - text: · Delivery and Logistics · Devices and Services · Amazon Web Services · Entertainment · Amazon Pay · Our Workplace. Open Item. Our Workplace.
+              - link "Read more" [ref=e949] [cursor=pointer]:
+                - /url: https://www.aboutamazon.in/#:~:text=CEO%20Andy%20Jassy's%202025%20Letter
+          - generic [ref=e953]:
+            - generic [ref=e956]:
+              - link "Amazon India YouTube https://www.youtube.com › AmazonInOfficial › about" [ref=e958] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/AmazonInOfficial/about
+                - heading "Amazon India" [level=3] [ref=e959]
+                - generic [ref=e964]:
+                  - generic [ref=e966]: YouTube
+                  - generic [ref=e968]: https://www.youtube.com › AmazonInOfficial › about
+              - button "About this result" [ref=e969] [cursor=pointer]:
+                - img [ref=e972]
+            - generic [ref=e975]:
+              - generic [ref=e976]:
+                - emphasis [ref=e977]: Amazon India
+                - text: . Description. The official YouTube channel of Amazon India. Links. http://www.amazon.inamazon.in. Facebookfacebook.com/AmazonIN. Twittertwitter.com ...
+              - link "Read more" [ref=e978] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/AmazonInOfficial/about#:~:text=Amazon%20India,Twittertwitter.com%2FamazonIN
+          - generic [ref=e982]:
+            - generic [ref=e985]:
+              - 'link "Prime Video: Watch movies, TV shows, sports, and live TV Prime Video https://www.primevideo.com" [ref=e987] [cursor=pointer]':
+                - /url: https://www.primevideo.com/
+                - 'heading "Prime Video: Watch movies, TV shows, sports, and live TV" [level=3] [ref=e988]'
+                - generic [ref=e993]:
+                  - generic [ref=e995]: Prime Video
+                  - generic [ref=e997]: https://www.primevideo.com
+              - button "About this result" [ref=e998] [cursor=pointer]:
+                - img [ref=e1001]
+            - generic [ref=e1004]:
+              - generic [ref=e1005]:
+                - emphasis [ref=e1006]: Watch movies, series, and more
+                - text: . Join Prime to watch the latest movies, TV shows, and award-winning Amazon Originals. Go to Amazon.
+              - link "Read more" [ref=e1007] [cursor=pointer]:
+                - /url: https://www.primevideo.com/#:~:text=Watch%20movies%2C%20series%2C%20and%20more,Go%20to%20Amazon.com%20to%20watch
+          - generic [ref=e1011]:
+            - generic [ref=e1014]:
+              - link "Read Customer Service Reviews of amazon.in Trustpilot https://www.trustpilot.com › ... › Online Marketplace" [ref=e1016] [cursor=pointer]:
+                - /url: https://www.trustpilot.com/review/amazon.in
+                - heading "Read Customer Service Reviews of amazon.in" [level=3] [ref=e1017]
+                - generic [ref=e1022]:
+                  - generic [ref=e1024]: Trustpilot
+                  - generic [ref=e1026]: https://www.trustpilot.com › ... › Online Marketplace
+              - button "About this result" [ref=e1027] [cursor=pointer]:
+                - img [ref=e1030]
+            - generic [ref=e1033]:
+              - generic [ref=e1034]:
+                - emphasis [ref=e1035]: Amazon.in Reviews 678
+                - text: · Product. Customers consistently note negative experiences with product quality and delivery. · Customer service. Reviewers express ...
+              - link "Read more" [ref=e1036] [cursor=pointer]:
+                - /url: https://www.trustpilot.com/review/amazon.in#:~:text=Amazon.in%20Reviews%20678&text=Product,with%20product%20quality%20and%20delivery.&text=Customer%20service,a%20significant%20decline%20in%20quality....
+          - region "Ads" [ref=e1040]:
+            - generic [ref=e1041]:
+              - heading "Sponsored result" [level=2] [ref=e1047]
+              - generic [ref=e1048]:
+                - generic [ref=e1059]:
+                  - generic [ref=e1060]:
+                    - link "Shop online at Amazon India Amazon.in https://www.amazon.in › home" [ref=e1061] [cursor=pointer]:
+                      - /url: https://www.amazon.in/
+                      - heading "Shop online at Amazon India" [level=3] [ref=e1062]
+                      - generic [ref=e1068]:
+                        - generic [ref=e1070]: Amazon.in
+                        - generic [ref=e1071]: https://www.amazon.in › home
+                    - button "Why this ad?" [ref=e1074] [cursor=pointer]:
+                      - img [ref=e1076]
+                  - generic [ref=e1080]: Affordable Product Range — Amazon offers an array of unique products from hundreds of brands.
+                  - generic [ref=e1082]:
+                    - img "Rated4.2out of5" [ref=e1084]
+                    - generic [ref=e1086]:
+                      - link "Rating" [ref=e1087] [cursor=pointer]:
+                        - /url: https://www.google.com/shopping/ratings/account/metrics?q=amazon.in&c=IN&v=19
+                      - text: "for amazon.in: 4.2 - 1,723 reviews"
+                    - text: "- Email reply time: 5 hours"
+                  - generic [ref=e1089]:
+                    - text: ‎
+                    - link "Easily Track Your Order" [ref=e1090] [cursor=pointer]:
+                      - /url: /aclk?sa=L&ai=DChsSEwjIsdS3--6TAxV5mWYCHWNfAp0YACICCAIQARoCc20&co=1&ase=2&gclid=EAIaIQobChMIyLHUt_vukwMVeZlmAh1jXwKdEAMYASABEgLRi_D_BwE&cid=CAAS0wHkaGnn1KnUf9nteR76tbLXbAjsYZTQiu-wOmMSyvo9BP1OE14IX034W9tz-6SNyQK2s_82-4cMq5S8pM5tysC158PNV2QsZMszM51kZeAPSmdMrzixS4I97W6ViBAfszHzxkgG0V33ySwmUI6vMOOskNdWyxFHWgkJ3o8jMl6JzkYImAGa5A8SLAhNo_C-J04eCxO8DwkRPdgqCmAy3gZWfLitsIhS7OIs9Bxc3pHX7XlwqUDJx3IVGB-UKeLBd2VAJn_Cr5jNkq3hqDaAq18AcwOe&cce=2&category=acrcp_v1_32&sig=AOD64_3FilH-utvk26j6VJJ7y4TyMa3VQA&adurl=&q=
+                    - text: · ‎
+                    - link "Home, Kitchen & More" [ref=e1091] [cursor=pointer]:
+                      - /url: /aclk?sa=L&ai=DChsSEwjIsdS3--6TAxV5mWYCHWNfAp0YACICCAIQAhoCc20&co=1&ase=2&gclid=EAIaIQobChMIyLHUt_vukwMVeZlmAh1jXwKdEAMYASACEgLhNPD_BwE&cid=CAAS0wHkaGnn1KnUf9nteR76tbLXbAjsYZTQiu-wOmMSyvo9BP1OE14IX034W9tz-6SNyQK2s_82-4cMq5S8pM5tysC158PNV2QsZMszM51kZeAPSmdMrzixS4I97W6ViBAfszHzxkgG0V33ySwmUI6vMOOskNdWyxFHWgkJ3o8jMl6JzkYImAGa5A8SLAhNo_C-J04eCxO8DwkRPdgqCmAy3gZWfLitsIhS7OIs9Bxc3pHX7XlwqUDJx3IVGB-UKeLBd2VAJn_Cr5jNkq3hqDaAq18AcwOe&cce=2&category=acrcp_v1_32&sig=AOD64_1pkd8ufKBAwHNvaurGAbMJ9Lp8qQ&adurl=&q=
+                - button "Hide sponsored result" [ref=e1092] [cursor=pointer]:
+                  - separator [ref=e1093]
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: Hide sponsored result
+                    - img [ref=e1097]
+      - navigation [ref=e1101]:
+        - heading "Page navigation" [level=1] [ref=e1102]
+        - text: "1"
+        - link "Page 2" [ref=e1105] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=10&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAE
+          - text: "2"
+        - link "Page 3" [ref=e1107] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=20&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAG
+          - text: "3"
+        - link "Page 4" [ref=e1109] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=30&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAI
+          - text: "4"
+        - link "Page 5" [ref=e1111] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=40&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAK
+          - text: "5"
+        - link "Page 6" [ref=e1113] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=50&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAM
+          - text: "6"
+        - link "Page 7" [ref=e1115] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=60&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAO
+          - text: "7"
+        - link "Page 8" [ref=e1117] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=70&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAQ
+          - text: "8"
+        - link "Page 9" [ref=e1119] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=80&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAS
+          - text: "9"
+        - link "Page 10" [ref=e1121] [cursor=pointer]:
+          - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=90&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8tMDegQIIRAU
+          - text: "10"
+        - heading "Next" [level=2] [ref=e1123]:
+          - link "Next" [ref=e1124] [cursor=pointer]:
+            - /url: /search?q=amazon.in&sca_esv=298796d921a32d3f&ei=qQzfaYrKGcmcseMPrPDOMQ&start=10&sa=N&sstk=Af77f_cgAg4FDkKxemaqW0nM62sGK8GnIqJSLzMIUTz6GmYBGRG7W-p43Fq28cgIY-7m9VHAPlb6IZTH5qkIlma-zBBG-9h4NKgbiA&ved=2ahUKEwjKwtC3--6TAxVJTmwGHSy4MwYQ8NMDegQIIRAW
+            - generic [ref=e1126]: Next
+      - navigation
+    - contentinfo [ref=e1127]:
+      - heading "Footer links" [level=1] [ref=e1128]
+      - generic [ref=e1132]:
+        - generic [ref=e1134]:
+          - text: India
+          - generic [ref=e1136]:
+            - button "Karawal Nagar, Delhi - From your IP address" [ref=e1138] [cursor=pointer]:
+              - generic [ref=e1139]: Karawal Nagar, Delhi
+              - generic [ref=e1141]:
+                - text: "-"
+                - generic [ref=e1142]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e1144] [cursor=pointer]: Update location
+        - generic [ref=e1147]:
+          - link "Help" [ref=e1148] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e1149] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1150] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e1151] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
