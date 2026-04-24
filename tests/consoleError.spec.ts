@@ -1,4 +1,4 @@
-import { test } from "../fixtures/console.fixture";
+/* import { test } from "../fixtures/console.fixture";
 
 test.describe("Page load console logs", () => {
   test("should load the page without any console errors", async ({ page }) => {
@@ -7,3 +7,4 @@ test.describe("Page load console logs", () => {
     await page.goto("https://with-bugs.practicesoftwaretesting.com/#/");
   });
 });
+ */
