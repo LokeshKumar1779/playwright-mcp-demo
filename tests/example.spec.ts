@@ -8,7 +8,7 @@ test("has title", async ({ page }) => {
 });
 
 // test.use({ trace: "on" });
-test.only("get started link", async ({ page }) => {
+test("get started link", async ({ page }) => {
   await page.goto("https://playwright.dev/");
 
   // Click the get started link.
@@ -16,6 +16,6 @@ test.only("get started link", async ({ page }) => {
 
   // Expects page to have a heading with the name of Installation.
   await expect(
-    page.getByRole("heading", { name: "Installationss" }),
+    page.getByRole("heading", { name: "Installation" }),
   ).toBeVisible();
 });
