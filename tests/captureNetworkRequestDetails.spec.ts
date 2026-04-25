@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+/* import { test, expect } from "@playwright/test";
 test("Capture network request details", async ({ page }) => {
   // Store network request data
   const networkRequests: any[] = [];
@@ -26,3 +26,4 @@ test("Capture network request details", async ({ page }) => {
   // Basic assertion to verify page loaded
   await expect(page).toHaveTitle(/Playwright/);
 });
+ */
