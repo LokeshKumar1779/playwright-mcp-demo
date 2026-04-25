@@ -14,7 +14,7 @@ import { test, expect } from "@playwright/test";
   });
 });  */
 
-test.describe.configure({ mode: "parallel", retries: 1 });
+/* test.describe.configure({ mode: "serial", retries: 1 });
 test.describe("slow tests", () => {
   test.slow(true, "Waiting for long API response");
   test("Test 1 - Google.com has correct title", async ({ page }) => {
@@ -34,4 +34,4 @@ test.describe("slow tests", () => {
     // test.slow();
     await page.waitForTimeout(10000);
   });
-});
+}); */

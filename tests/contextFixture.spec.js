@@ -1,4 +1,4 @@
-import { test, expect, chromium } from '@playwright/test';
+/* import { test, expect, chromium } from '@playwright/test';
 
 test("should shared cookies between pages in the same context", async () => {
     const browser = await chromium.launch();
@@ -24,4 +24,4 @@ test("should shared cookies between pages in the same context", async () => {
     await page2.pause();
     await page1.close();
     await page2.close();
-});
+}); */

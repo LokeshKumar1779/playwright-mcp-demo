@@ -35,7 +35,7 @@ export default defineConfig({
     // trace: "on-first-retry",
     screenshot: "only-on-failure",
     video: "retain-on-failure",
-    browserName: "chromium",
+    // browserName: "chromium",
     // baseURL: "https://rahulshettyacademy.com",
     /* viewport: {
       width: 1280,
@@ -51,7 +51,7 @@ export default defineConfig({
       // fullyParallel: true,
     },
 
-    /*     {
+    {
       name: "firefox",
       use: { ...devices["Desktop Firefox"] },
     },
@@ -59,7 +59,7 @@ export default defineConfig({
     {
       name: "webkit",
       use: { ...devices["Desktop Safari"] },
-    }, */
+    },
 
     /* Test against mobile viewports. */
     // {

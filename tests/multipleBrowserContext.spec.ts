@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+/* import { test, expect } from "@playwright/test";
 import { chromium } from "playwright";
 
 /* test("Multiple Browser Contexts", async () => {
@@ -21,25 +21,24 @@ import { chromium } from "playwright";
 
 // await expect(userPage.locator(".new-setting")).toBeVisible();
 
-test("multiple browsers", async () => {
+/*test("multiple browsers", async () => {
   const urls = ["https://www.google.com", "https://www.amazon.com"];
-
-  /*   for (const url of urls) {
+    for (const url of urls) {
     const browser = await chromium.launch();
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto(url);
     await browser.close();
-  } */
+  } 
 
   const browser = await chromium.launch();
   for (const url of urls) {
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto(url);
-    await page.route("**/*.{png,jpg,jpeg,svg,gif}", route => route.abort());
-    await page.pause();
-    await context.close();
-  }
-  await browser.close();
-});
+    //await page.route("{png,jpg,jpeg,svg,gif}", route => route.abort());
+    // await page.pause();
+    // await context.close();
+  // }
+  // await browser.close();
+// }); */

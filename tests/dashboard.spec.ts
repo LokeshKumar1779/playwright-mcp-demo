@@ -1,4 +1,4 @@
-import { test } from "../fixtures/login.fixture";
+/* import { test } from "../fixtures/login.fixture";
 import { expect } from "playwright/test";
 
 test("should login", async ({ loginPage }) => {
@@ -7,3 +7,4 @@ test("should login", async ({ loginPage }) => {
     "https://www.saucedemo.com/inventory.html",
   );
 });
+ */
