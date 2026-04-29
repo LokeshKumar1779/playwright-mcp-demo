@@ -1,0 +1,19 @@
+# Use an official Playwright base image (Node.js with browsers and dependencies)
+# It's recommended to pin to a specific version for reproducibility
+FROM mcr.microsoft.com/playwright:v1.59.1-noble
+
+LABEL Name="playwright-tests"
+LABEL Version="1.0.0"
+
+# Set the working directory inside the container
+WORKDIR /app
+# Copy package.json and package-lock.json to install dependencies
+# This leverages Docker's caching, so dependencies are only reinstalled if these files change
+COPY package*.json ./
+# Install project dependencies
+RUN npm ci
+# Copy the rest of your Playwright project files into the container
+COPY . .
+# Command to run Playwright tests when the container starts
+# You can adjust this based on your specific needs
+CMD ["npx", "playwright", "test"]
