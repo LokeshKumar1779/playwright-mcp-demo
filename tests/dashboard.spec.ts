@@ -6,5 +6,4 @@ test("should login", async ({ loginPage }) => {
   await expect(loginPage.page).toHaveURL(
     "https://www.saucedemo.com/inventory.html",
   );
-});
- */
+}); */

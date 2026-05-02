@@ -41,13 +41,14 @@ export default defineConfig({
       width: 1280,
       height: 720,
     }, */
+    headless: !!process.env.CI, // default is true, set to false to see the browser action
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
+      use: { ...devices["Desktop Chrome"] /* headless: false  */ },
       // fullyParallel: true,
     },
 
